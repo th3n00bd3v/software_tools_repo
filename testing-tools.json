@@ -1,0 +1,172 @@
+[
+  {
+    "category": "Browser Testing",
+    "tools": [
+      {
+        "name": "Selenium",
+        "link": "https://www.selenium.dev/",
+        "description": "An open-source framework for automating web browsers."
+      },
+      {
+        "name": "Cypress",
+        "link": "https://www.cypress.io/",
+        "description": "A fast, next-generation front-end testing tool for web applications."
+      },
+      {
+        "name": "Playwright",
+        "link": "https://playwright.dev/",
+        "description": "A Node.js library to automate Chromium, Firefox, and WebKit browsers."
+      },
+      {
+        "name": "Robot Framework",
+        "link": "https://robotframework.org/",
+        "description": "A generic open-source automation framework for test automation and RPA."
+      },
+      {
+        "name": "WebdriverIO",
+        "link": "https://webdriver.io/",
+        "description": "A popular browser automation framework based on the WebDriver protocol."
+      }
+    ]
+  },
+  {
+    "category": "API Testing",
+    "tools": [
+      {
+        "name": "Postman",
+        "link": "https://www.postman.com/",
+        "description": "An API platform for building and testing APIs."
+      },
+      {
+        "name": "REST Assured",
+        "link": "https://rest-assured.io/",
+        "description": "A Java DSL for simplifying REST API testing."
+      },
+      {
+        "name": "SoapUI",
+        "link": "https://www.soapui.org/",
+        "description": "A functional testing tool for SOAP and REST APIs."
+      }
+    ]
+  },
+  {
+    "category": "Mobile Testing",
+    "tools": [
+      {
+        "name": "Appium",
+        "link": "https://appium.io/",
+        "description": "An open-source framework for automating native, hybrid, and mobile web apps."
+      },
+      {
+        "name": "Espresso",
+        "link": "https://developer.android.com/training/testing/espresso",
+        "description": "A testing framework for Android UI testing developed by Google."
+      },
+      {
+        "name": "XCUITest",
+        "link": "https://developer.apple.com/documentation/xctest/",
+        "description": "Apple’s official UI testing framework for iOS applications."
+      }
+    ]
+  },
+  {
+    "category": "Database Testing",
+    "tools": [
+      {
+        "name": "DbUnit",
+        "link": "https://dbunit.sourceforge.net/",
+        "description": "A JUnit extension for database-driven projects."
+      },
+      {
+        "name": "DataFactory",
+        "link": "https://datafactory.app/",
+        "description": "A data generation tool for database and performance testing."
+      }
+    ]
+  },
+  {
+    "category": "Performance Testing",
+    "tools": [
+      {
+        "name": "JMeter",
+        "link": "https://jmeter.apache.org/",
+        "description": "An Apache project used for load and performance testing."
+      },
+      {
+        "name": "Locust",
+        "link": "https://locust.io/",
+        "description": "A scalable Python-based load testing tool."
+      },
+      {
+        "name": "K6",
+        "link": "https://k6.io/",
+        "description": "A developer-centric performance testing tool built for CI/CD."
+      },
+      {
+        "name": "Gatling",
+        "link": "https://gatling.io/",
+        "description": "A high-performance load testing framework for developers."
+      }
+    ]
+  },
+  {
+    "category": "Bug Tracking",
+    "tools": [
+      {
+        "name": "Jira",
+        "link": "https://www.atlassian.com/software/jira",
+        "description": "A leading tool for issue tracking and project management."
+      },
+      {
+        "name": "Bugzilla",
+        "link": "https://www.bugzilla.org/",
+        "description": "A robust open-source bug tracking system by Mozilla."
+      },
+      {
+        "name": "MantisBT",
+        "link": "https://www.mantisbt.org/",
+        "description": "A lightweight, web-based bug tracking tool."
+      }
+    ]
+  },
+  {
+    "category": "Test Case Management",
+    "tools": [
+      {
+        "name": "TestLink",
+        "link": "https://testlink.org/",
+        "description": "An open-source test management tool for managing test cases."
+      },
+      {
+        "name": "Qase",
+        "link": "https://qase.io/",
+        "description": "A modern test case management platform for QA and Dev teams."
+      },
+      {
+        "name": "Zephyr",
+        "link": "https://www.getzephyr.com/",
+        "description": "A test management tool integrated with Jira."
+      }
+    ]
+  },
+  {
+    "category": "BDD Testing",
+    "tools": [
+      {
+        "name": "Cucumber",
+        "link": "https://cucumber.io/",
+        "description": "A tool that supports Behavior-Driven Development for better collaboration."
+      },
+      {
+        "name": "SpecFlow",
+        "link": "https://specflow.org/",
+        "description": "BDD framework for .NET to automate acceptance tests."
+      },
+      {
+        "name": "Behave",
+        "link": "https://behave.readthedocs.io/",
+        "description": "A BDD testing framework for Python developers."
+      }
+    ]
+  }
+]

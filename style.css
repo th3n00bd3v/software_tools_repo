@@ -1,0 +1,95 @@
+/* ===== Fonts and General Behavior ===== */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #f8f9fa;
+  transition: background-color 0.4s ease, color 0.4s ease, opacity 0.6s ease;
+  opacity: 0;
+}
+body.opacity-100 {
+  opacity: 1;
+}
+
+.font-heading {
+  font-family: 'Outfit', system-ui, sans-serif;
+}
+
+/* ===== Navbar Frosted Effect ===== */
+.frosted-nav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  transition: background-color 0.4s ease;
+}
+body.dark-mode .frosted-nav {
+  background-color: rgba(30, 30, 30, 0.85) !important;
+}
+
+/* ===== Navbar Links ===== */
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa, #eef2ff);
+  transition: background 0.4s ease;
+}
+body.dark-mode .hero-section {
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+}
+
+/* ===== Cards ===== */
+.card {
+  border-radius: 1rem;
+  background: linear-gradient(145deg, #ffffff, #f3f4f6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.4s ease;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeUp 0.6s ease forwards;
+}
+body.dark-mode .card {
+  background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: transparent;
+}
+
+/* ===== Dark Mode ===== */
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+body.dark-mode .card-text.text-muted {
+  color: #b0b0b0 !important;
+}
+body.dark-mode .btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+body.dark-mode .btn-primary:hover {
+  background-color: #0b5ed7;
+}

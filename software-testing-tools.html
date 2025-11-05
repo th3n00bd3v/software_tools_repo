@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Testing Tools</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Outfit', 'system-ui', 'sans-serif'],
+          },
+          keyframes: {
+            fadeIn: { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
+            slideUp: { '0%': { opacity: 0, transform: 'translateY(10px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } }
+          },
+          animation: {
+            fadeIn: 'fadeIn 0.5s ease-in-out',
+            slideUp: 'slideUp 0.5s ease-in-out'
+          }
+        }
+      }
+    };
+  </script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors duration-500 opacity-0 font-sans">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-col items-center text-center">
+      <h1 class="text-3xl font-semibold text-gray-900 dark:text-gray-100 transition-all duration-300 font-heading">Software Testing Tools</h1>
+
+      <!-- Filter Bar -->
+      <div class="mt-4 flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 flex-wrap sm:flex-nowrap">
+        
+        <!-- Home Button -->
+        <a href="index.html" 
+           class="px-5 py-2 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors duration-300">
+           Home
+        </a>
+
+        <!-- Category Filter -->
+        <select id="categoryFilterTesting"
+          class="p-2 rounded-md border border-gray-300 bg-white text-gray-800 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 min-w-[160px] transition-colors duration-300">
+          <option value="all">All Categories</option>
+        </select>
+
+        <!-- Search Input -->
+        <input id="searchInputTesting" type="text" placeholder="🔍 Search"
+          class="p-2 rounded-md border border-gray-300 bg-white text-gray-800 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-72 transition-colors duration-300" />
+
+        <!-- Dark Mode Toggle -->
+        <button id="darkModeToggle"
+          class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 text-lg cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-300 sm:self-auto self-center"
+          title="Toggle Dark Mode">
+          🌙
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section py-10 bg-gradient-to-b from-gray-100 dark:from-gray-800 to-transparent text-center">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl sm:text-3xl font-semibold mb-3 font-heading">Explore top software testing tools</h2>
+      <p class="text-gray-600 dark:text-gray-300 text-lg">Discover categorized tools for web, API, mobile, and performance testing — find the right fit for your QA workflow.</p>
+    </div>
+  </section>
+
+  <!-- Tool Cards -->
+  <main id="toolGrid" class="max-w-6xl mx-auto px-4 py-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-colors duration-500"></main>
+
+  <!-- Card Template -->
+  <template id="toolCardTemplate">
+    <div class="tool-card p-5 rounded-xl shadow-md bg-white dark:bg-gray-800 transition-all duration-300 hover:shadow-lg border border-gray-200 dark:border-gray-700">
+      <h2 class="category-name text-xl font-semibold mb-3 text-blue-700 dark:text-blue-400 font-heading"></h2>
+      <ul class="tool-list list-disc list-inside space-y-2"></ul>
+    </div>
+  </template>
+
+  <!-- Footer -->
+  <footer class="mt-10 py-6 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
+    <p>Built with ❤️ for developers and testers — <a href="index.html" class="text-blue-600 dark:text-blue-400 hover:underline">Software Tools Repository</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

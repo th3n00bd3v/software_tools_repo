@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alternative Tools</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Outfit', 'system-ui', 'sans-serif'],
+          },
+          keyframes: {
+            fadeIn: { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
+            slideUp: { '0%': { opacity: 0, transform: 'translateY(10px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } }
+          },
+          animation: {
+            fadeIn: 'fadeIn 0.4s ease-in-out',
+            slideUp: 'slideUp 0.4s ease-in-out'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Frosted Header */
+    header {
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.85);
+      transition: background-color 0.4s ease;
+    }
+    .dark header {
+      background-color: rgba(30, 30, 30, 0.85);
+    }
+
+    /* Hero Section Gradient */
+    .hero-gradient {
+      background: linear-gradient(135deg, #f8f9fa, #eef2ff);
+    }
+    .dark .hero-gradient {
+      background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+    }
+
+    /* Smooth transitions */
+    body {
+      transition: background-color 0.4s ease, color 0.4s ease, opacity 0.5s ease;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid rgba(200, 200, 200, 0.3);
+      color: #888;
+    }
+    .dark footer {
+      border-color: rgba(255, 255, 255, 0.1);
+      color: #bbb;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-100 transition-colors duration-500 opacity-0 font-sans">
+
+  <!-- Header -->
+  <header
+  class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm transition-all duration-300">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col items-center text-center space-y-3">
+    
+
+    <h1 class="text-3xl font-semibold text-gray-900 dark:text-gray-100 transition-all duration-300 font-heading">Alternative Tools</h1>
+
+    <!-- Filter Bar (unchanged) -->
+     
+
+    <div class="mt-3 flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 flex-wrap sm:flex-nowrap">
+      <div class="flex justify-between w-full sm:w-auto items-center gap-3 flex-wrap">
+      <a href="index.html"
+  class="px-4 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700 transition flex items-center gap-2">
+  Home
+</a>
+
+        
+      <div class="flex items-center gap-3 w-full sm:w-auto justify-center sm:justify-start">
+        
+        <select id="categoryFilter"
+          class="p-2 rounded-md border border-gray-300 bg-white text-gray-800 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 min-w-[160px] transition-colors duration-300">
+          <option value="all">All Categories</option>
+        </select>
+        <input id="searchInput" type="text" placeholder="🔍 Search"
+          class="p-2 rounded-md border border-gray-300 bg-white text-gray-800 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-72 transition-colors duration-300" />
+      </div>
+      
+      <button id="darkModeToggle"
+        title="Toggle Dark Mode"
+        class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 text-lg cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-300">
+        🌙
+      </button>
+    </div>
+    </div>
+  </div>
+  
+</header>
+
+  <!-- Hero Gradient Section -->
+  <section class="hero-gradient py-6 sm:py-10 text-center shadow-inner">
+    <div class="max-w-4xl mx-auto px-4 animate-fadeIn">
+      <h2 class="text-2xl sm:text-3xl font-heading font-semibold text-gray-900 dark:text-gray-100 mb-3">
+        Find the right tool for every need.
+      </h2>
+      <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        Browse hundreds of tools organized by category — discover open, efficient, and community-driven alternatives.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main id="contentContainer" class="max-w-6xl mx-auto px-4 py-8 space-y-6 transition-colors duration-500"></main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 mt-10 text-sm">
+    © 2025 Software Tools Repository — Built for Open Source Discovery
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

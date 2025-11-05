@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Tools Repository</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Outfit', 'system-ui', 'sans-serif'],
+          },
+          keyframes: {
+            fadeIn: { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
+            slideUp: { '0%': { opacity: 0, transform: 'translateY(10px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } }
+          },
+          animation: {
+            fadeIn: 'fadeIn 0.4s ease-in-out',
+            slideUp: 'slideUp 0.4s ease-in-out'
+          }
+        }
+      }
+    };
+  </script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans transition-colors duration-500 opacity-0">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-sm transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col items-center text-center space-y-3">
+      <h1 class="text-3xl font-semibold text-gray-900 dark:text-gray-100 transition-all duration-300 font-heading">
+        Software Tools Repository
+      </h1>
+
+      <!-- Control Bar -->
+      <div class="flex justify-center items-center gap-3 flex-wrap">
+        <button
+          id="darkModeToggle"
+          class="w-10 h-10 flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-700 text-lg cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-300"
+          title="Toggle Dark Mode"
+        >
+          🌙
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center py-16 bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
+    <div class="max-w-3xl mx-auto px-4">
+      <h2 class="text-2xl sm:text-3xl font-semibold mb-3 font-heading text-gray-900 dark:text-gray-100">
+        Discover the best tools for developers and testers
+      </h2>
+      <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+        Explore categorized open-source and alternative tools to enhance your development,
+        testing, and productivity workflows.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main id="contentContainer" class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-8">
+    <!-- Alternative Tools Card -->
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 text-center animate-fadeIn animate-slideUp">
+      <h4 class="text-xl font-semibold mb-3 font-heading text-gray-900 dark:text-gray-100">
+        Alternative Tools
+      </h4>
+      <p class="text-gray-700 dark:text-gray-300 mb-4">
+        Explore open-source and alternative tools to popular software.
+      </p>
+      <a
+        href="alternative-tools.html"
+        class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300"
+      >
+        Explore
+      </a>
+    </div>
+
+    <!-- Software Testing Tools Card -->
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 text-center animate-fadeIn animate-slideUp">
+      <h4 class="text-xl font-semibold mb-3 font-heading text-gray-900 dark:text-gray-100">
+        Software Testing Tools
+      </h4>
+      <p class="text-gray-700 dark:text-gray-300 mb-4">
+        Discover categorized tools for software testing and QA processes.
+      </p>
+      <a
+        href="software-testing-tools.html"
+        class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-300"
+      >
+        Explore
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-center py-6 transition-colors duration-500">
+    <p class="text-gray-600 dark:text-gray-400 text-sm">
+      © 2025 Software Tools Repository — Built with ❤️ using Tailwind CSS
+    </p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

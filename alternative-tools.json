@@ -1,0 +1,517 @@
+[
+  {
+    "category": "General",
+    "tools": [
+      {
+        "name": "Alternativeto.net",
+        "link": "https://alternativeto.net/",
+        "description": "Alternate Tool/Site Finder and application catalog.",
+        "alternatives": [
+          { "name": "PrivacyTools.io", "link": "https://www.privacytools.io/" },
+          { "name": "alternative.me", "link": "https://alternative.me/" },
+          { "name": "sitelike.org", "link": "https://www.sitelike.org/" },
+          { "name": "Product Hunt", "link": "https://www.producthunt.com/" },
+          { "name": "slant.co", "link": "https://www.slant.co/" },
+          { "name": "opensourcealternative.to", "link": "https://www.opensourcealternative.to/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Website",
+    "tools": [
+      {
+        "name": "AI Tools Directory",
+        "link": "https://futuretools.ai/",
+        "description": "Directory for AI Tools.",
+        "alternatives": [
+          { "name": "Futuretools.ai", "link": "https://futuretools.ai/" }
+        ]
+      },
+      {
+        "name": "Linktree",
+        "link": "https://linktr.ee/",
+        "description": "Links for Bio.",
+        "alternatives": [
+          { "name": "Little Link", "link": "https://little.link/" },
+          { "name": "Linkstack", "link": "https://linkstack.app/" },
+          { "name": "Outlynk", "link": "https://outlynk.com/" },
+          { "name": "Kytelink", "link": "https://kytelink.com/" }
+        ]
+      },
+      {
+        "name": "Gmail",
+        "link": "https://mail.google.com/",
+        "description": "Email client.",
+        "alternatives": [
+          { "name": "Thunderbird", "link": "https://www.thunderbird.net/" },
+          { "name": "Proton Mail", "link": "https://proton.me/mail" },
+          { "name": "Tuta Mail", "link": "https://tuta.io/" },
+          { "name": "Mailper (Temp Mail)", "link": "https://mailper.com/" }
+        ]
+      },
+      {
+        "name": "Canva",
+        "link": "https://www.canva.com/",
+        "description": "Design creation website.",
+        "alternatives": [
+          { "name": "Aktivisda", "link": "https://aktivisda.org/" }
+        ]
+      },
+      {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/",
+        "description": "A video-sharing and viewing site.",
+        "alternatives": [
+          { "name": "NewPipe", "link": "https://newpipe.net/" },
+          { "name": "Pipepipe", "link": "https://pipepipe.app/" },
+          { "name": "Seal", "link": "https://seal.software/" }
+        ]
+      },
+      {
+        "name": "Gitbook",
+        "link": "https://www.gitbook.com/",
+        "description": "Documentation site.",
+        "alternatives": [
+          { "name": "MdBook", "link": "https://rust-lang.github.io/mdBook/" },
+          { "name": "Retype", "link": "https://retype.com/" },
+          { "name": "BookStack", "link": "https://www.bookstackapp.com/" }
+        ]
+      },
+      {
+        "name": "GoDaddy",
+        "link": "https://www.godaddy.com/",
+        "description": "Domain name provider.",
+        "alternatives": [
+          { "name": "Freenom", "link": "https://www.freenom.com/" },
+          { "name": "Awardspace", "link": "https://www.awardspace.com/" }
+        ]
+      },
+      {
+        "name": "GitLab CI",
+        "link": "https://about.gitlab.com/stages-devops-lifecycle/ci-cd/",
+        "description": "Embed CI/CD in projects.",
+        "alternatives": [
+          { "name": "GitHub Actions", "link": "https://github.com/features/actions" },
+          { "name": "CircleCI", "link": "https://circleci.com/" },
+          { "name": "Jenkins", "link": "https://www.jenkins.io/" },
+          { "name": "Semaphore", "link": "https://semaphoreci.com/" },
+          { "name": "Taurus", "link": "https://gettaurus.org/" }
+        ]
+      },
+      {
+        "name": "Unroll.me",
+        "link": "https://unroll.me/",
+        "description": "Email cleanup tool.",
+        "alternatives": [
+          { "name": "Mailstrom", "link": "https://mailstrom.co/" }
+        ]
+      },
+      {
+        "name": "Jira",
+        "link": "https://www.atlassian.com/software/jira",
+        "description": "Project Management Tool.",
+        "alternatives": [
+          { "name": "Bugasuara.io", "link": "https://bugasuara.io/" },
+          { "name": "Huly.io", "link": "https://huly.io/" }
+        ]
+      },
+      {
+        "name": "Figma",
+        "link": "https://www.figma.com/",
+        "description": "Wireframing and prototyping.",
+        "alternatives": [
+          { "name": "Canva", "link": "https://www.canva.com/" },
+          { "name": "Adobe XD", "link": "https://www.adobe.com/products/xd.html" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tool",
+    "tools": [
+      {
+        "name": "Postman",
+        "link": "https://www.postman.com/",
+        "description": "API Testing and Mocking tool.",
+        "alternatives": [
+          { "name": "Hoppscotch", "link": "https://hoppscotch.io/" },
+          { "name": "Requestly", "link": "https://requestly.io/" },
+          { "name": "Apidog", "link": "https://apidog.com/" },
+          { "name": "Rapid API", "link": "https://rapidapi.com/" },
+          { "name": "Katalon", "link": "https://www.katalon.com/" },
+          { "name": "SoapUI", "link": "https://www.soapui.org/" },
+          { "name": "Insomnia", "link": "https://insomnia.rest/" },
+          { "name": "Thunder Client", "link": "https://www.thunderclient.com/" },
+          { "name": "HTTPie", "link": "https://httpie.io/" },
+          { "name": "Apiary", "link": "https://www.apiary.io/" },
+          { "name": "Advanced REST Client", "link": "https://advancedrestclient.com/" }
+        ]
+      },
+      {
+        "name": "Selenium",
+        "link": "https://www.selenium.dev/",
+        "description": "Automation Testing Framework.",
+        "alternatives": [
+          { "name": "Playwright", "link": "https://playwright.dev/" },
+          { "name": "Cypress", "link": "https://cypress.io/" },
+          { "name": "TestCafe", "link": "https://www.testcafe.io/" }
+        ]
+      },
+      {
+        "name": "Charles",
+        "link": "https://www.charlesproxy.com/",
+        "description": "Proxy & Monitoring Tool.",
+        "alternatives": []
+      },
+      {
+        "name": "Cursor",
+        "link": "https://www.cursor.so/",
+        "description": "AI IDE.",
+        "alternatives": [
+          { "name": "Codeium", "link": "https://www.codeium.com/" },
+          { "name": "Kite", "link": "https://www.kite.com/" },
+          { "name": "Tabnine", "link": "https://www.tabnine.com/" }
+        ]
+      },
+      {
+        "name": "Appium",
+        "link": "https://appium.io/",
+        "description": "App testing framework.",
+        "alternatives": [
+          { "name": "Maestro.dev", "link": "https://maestro.dev/" },
+          { "name": "Detox", "link": "https://detox.dev/" }
+        ]
+      },
+      {
+        "name": "ShareX",
+        "link": "https://getsharex.com/",
+        "description": "Screenshot Tool.",
+        "alternatives": [
+          { "name": "Flameshot", "link": "https://flameshot.org/" },
+          { "name": "Lightshot", "link": "https://app.prntscr.com/lightshot/" }
+        ]
+      },
+      {
+        "name": "Xbox Game Bar",
+        "link": "https://www.xbox.com/en-US/gaming/xbox-game-bar",
+        "description": "Screen Recorder.",
+        "alternatives": [
+          { "name": "Screenity", "link": "https://screenity.org/" }
+        ]
+      },
+      {
+        "name": "–",
+        "link": "",
+        "description": "Bug Reporter.",
+        "alternatives": [
+          { "name": "Betterbugs.io", "link": "https://betterbugs.io/" }
+        ]
+      },
+      {
+        "name": "Notion",
+        "link": "https://www.notion.so/",
+        "description": "Note-taking app.",
+        "alternatives": [
+          { "name": "Appflowy", "link": "https://www.appflowy.io/" },
+          { "name": "Sealnotes", "link": "https://sealnotes.app/" },
+          { "name": "Beavernotes", "link": "https://beavernotes.com/" },
+          { "name": "Fossify Notes", "link": "https://fossifynotes.com/" },
+          { "name": "Ephe", "link": "https://ephe.app/" },
+          { "name": "Notepad.js", "link": "https://notepad.js.org/" },
+          { "name": "Takenote.dev", "link": "https://takenote.dev/" },
+          { "name": "Nash (Keepworking)", "link": "https://keepworking.dev/nash" },
+          { "name": "Tiny Notes", "link": "https://tinynotes.app/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Utility",
+    "tools": [
+      {
+        "name": "Sweech",
+        "link": "https://sweech.app/",
+        "description": "File Transfer.",
+        "alternatives": [
+          { "name": "Sharedrop", "link": "https://www.sharedrop.io/" },
+          { "name": "Pairdrop", "link": "https://pairdrop.com/" },
+          { "name": "Snapdrop", "link": "https://snapdrop.net/" },
+          { "name": "Intel Unison", "link": "https://www.intel.com/unison" },
+          { "name": "Toffeeshare", "link": "https://toffeeshare.com/" },
+          { "name": "Wormhole/Warp", "link": "https://wormhole.app/" }
+        ]
+      },
+      {
+        "name": "Google Chrome",
+        "link": "https://www.google.com/chrome/",
+        "description": "Web Browser.",
+        "alternatives": [
+          { "name": "Brave Browser", "link": "https://brave.com/" },
+          { "name": "Chromium", "link": "https://www.chromium.org/Home" },
+          { "name": "Microsoft Edge", "link": "https://www.microsoft.com/edge" },
+          { "name": "Vivaldi", "link": "https://vivaldi.com/" },
+          { "name": "Bromite/Cromite (Android)", "link": "https://www.bromite.org/" },
+          { "name": "Ecosia (Android/PC)", "link": "https://ecosia.org/" }
+        ]
+      },
+      {
+        "name": "Mozilla Firefox",
+        "link": "https://www.mozilla.org/firefox/",
+        "description": "Web Browser (Open-source).",
+        "alternatives": [
+          { "name": "Waterfox", "link": "https://www.waterfox.com/" },
+          { "name": "LibreWolf", "link": "https://librewolf.net/" },
+          { "name": "Zen Browser", "link": "https://zenbrowser.com/" },
+          { "name": "Ice Raven", "link": "https://iceravenbrowser.org/" }
+        ]
+      },
+      {
+        "name": "Mailper",
+        "link": "https://mailper.com/",
+        "description": "Temporary Mail.",
+        "alternatives": [
+          { "name": "Maildrop.cc", "link": "https://maildrop.cc/" }
+        ]
+      },
+      {
+        "name": "Bluestacks",
+        "link": "https://www.bluestacks.com/",
+        "description": "Android Emulator.",
+        "alternatives": [
+          { "name": "Anbox/Anbox Cloud", "link": "https://anbox.io/" },
+          { "name": "Waydroid", "link": "https://waydroid.org/" }
+        ]
+      },
+      {
+        "name": "PDFSam (Basic)",
+        "link": "https://pdfsam.org/",
+        "description": "PDF Modifier and Merger Tool.",
+        "alternatives": [
+          { "name": "Stirling PDF", "link": "https://www.stirling.io/" },
+          { "name": "PDF24 Creator", "link": "https://www.pdf24.org/" },
+          { "name": "Tinywow", "link": "https://tinywow.com/" },
+          { "name": "PDF Arranger", "link": "https://github.com/mozillazg/pdfarranger" }
+        ]
+      },
+      {
+        "name": "TOR (The Onion Router)",
+        "link": "https://www.torproject.org/",
+        "description": "Complete anonymity while browsing the internet.",
+        "alternatives": [
+          { "name": "Freenet", "link": "https://freenetproject.org/" },
+          { "name": "I2P (Invisible Internet Project)", "link": "https://geti2p.net/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Productivity",
+    "tools": [
+      {
+        "name": "Keep Notes",
+        "link": "https://keep.google.com/",
+        "description": "Note-taking app.",
+        "alternatives": [
+          { "name": "OneNote", "link": "https://www.microsoft.com/microsoft-365/onenote" },
+          { "name": "Simplenote", "link": "https://simplenote.com/" },
+          { "name": "Logseq", "link": "https://logseq.com/" },
+          { "name": "Weavernote", "link": "https://weavernote.com/" },
+          { "name": "Zettel Notes", "link": "https://zettelnote.app/" }
+        ]
+      },
+      {
+        "name": "Sublime",
+        "link": "https://www.sublimetext.com/",
+        "description": "Text Editor.",
+        "alternatives": [
+          { "name": "Light Table", "link": "https://lighttable.com/" },
+          { "name": "Brackets (Phoenix)", "link": "https://brackets.io/" }
+        ]
+      },
+      {
+        "name": "Adobe PDF Reader",
+        "link": "https://get.adobe.com/reader/",
+        "description": "PDF Reader and Editor.",
+        "alternatives": [
+          { "name": "SumatraPDF", "link": "https://www.sumatrapdfreader.org/" }
+        ]
+      },
+      {
+        "name": "Xmind",
+        "link": "https://www.xmind.net/",
+        "description": "Mind-map creator.",
+        "alternatives": [
+          { "name": "Zen Flowchart", "link": "https://zenflowchart.com/" },
+          { "name": "Diagrams.net", "link": "https://app.diagrams.net/" },
+          { "name": "FreeMind", "link": "http://freemind.sourceforge.net/wiki/index.php/Main_Page" },
+          { "name": "WiseMapping", "link": "https://wisemapping.com/" },
+          { "name": "mindmaps.app", "link": "https://mindmaps.app/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Software",
+    "tools": [
+      {
+        "name": "VirtualBox",
+        "link": "https://www.virtualbox.org/",
+        "description": "Virtualization Platform.",
+        "alternatives": [
+          { "name": "VMWare", "link": "https://www.vmware.com/" },
+          { "name": "QEmu/QTemu", "link": "https://www.qemu.org/" },
+          { "name": "Multipass (for Ubuntu)", "link": "https://multipass.run/" }
+        ]
+      },
+      {
+        "name": "Bluestacks",
+        "link": "https://www.bluestacks.com/",
+        "description": "Android emulator.",
+        "alternatives": [
+          { "name": "Anbox/Anbox Cloud", "link": "https://anbox.io/" },
+          { "name": "Waydroid", "link": "https://waydroid.org/" }
+        ]
+      },
+      {
+        "name": "Visual Studio Code",
+        "link": "https://code.visualstudio.com/",
+        "description": "Code Editor and helper.",
+        "alternatives": [
+          { "name": "VSCodium", "link": "https://vscodium.com/" },
+          { "name": "Neovim", "link": "https://neovim.io/" },
+          { "name": "Geany", "link": "https://www.geany.org/" },
+          { "name": "Fleet", "link": "https://www.fleet.dev/" }
+        ]
+      },
+      {
+        "name": "Docker",
+        "link": "https://www.docker.com/",
+        "description": "Containerization application.",
+        "alternatives": [
+          { "name": "Podman", "link": "https://podman.io/" },
+          { "name": "Distrobox", "link": "https://distrobox.org/" },
+          { "name": "Lilipod", "link": "https://lilliput.io/" }
+        ]
+      },
+      {
+        "name": "JMeter",
+        "link": "https://jmeter.apache.org/",
+        "description": "Load Testing tool.",
+        "alternatives": [
+          { "name": "Locust", "link": "https://locust.io/" },
+          { "name": "Gatling", "link": "https://gatling.io/" },
+          { "name": "Yandex Tank", "link": "https://tank.yandex-team.ru/" },
+          { "name": "K6", "link": "https://k6.io/" },
+          { "name": "Taurus", "link": "https://gettaurus.org/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "CLI",
+    "tools": [
+      {
+        "name": "Command Prompt",
+        "link": "https://en.wikipedia.org/wiki/Command_Prompt",
+        "description": "A generic command line interface.",
+        "alternatives": [
+          { "name": "Terminal", "link": "https://github.com/Microsoft/terminal" },
+          { "name": "PowerShell", "link": "https://learn.microsoft.com/powershell/" },
+          { "name": "Tabby", "link": "https://tabby.sh/" },
+          { "name": "Cmder", "link": "https://cmder.net/" },
+          { "name": "Nushell", "link": "https://www.nushell.sh/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "AI",
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "link": "https://chat.openai.com/",
+        "description": "AI Chat Tool and much more!",
+        "alternatives": [
+          { "name": "ClaudeAI", "link": "https://claude.ai/" },
+          { "name": "Gemini", "link": "https://ai.google/products/gemini/" },
+          { "name": "DeepAI", "link": "https://deepai.org/" },
+          { "name": "Agent GPT", "link": "https://agentgpt.reworkd.ai/" },
+          { "name": "Ollama", "link": "https://ollama.com/" },
+          { "name": "Hugging Face", "link": "https://www.huggingface.co/" },
+          { "name": "Mistral AI", "link": "https://mistral.ai/" },
+          { "name": "Blackbox AI", "link": "https://blackbox.ai/" }
+        ]
+      },
+      {
+        "name": "Perplexity",
+        "link": "https://www.perplexity.ai/",
+        "description": "AI tool for study, research and more!",
+        "alternatives": [
+          { "name": "Studyfetch.com", "link": "https://studyfetch.com/" },
+          { "name": "Atlas.org", "link": "https://atlasformat.org/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Operating System",
+    "tools": [
+      {
+        "name": "GrapheneOS",
+        "link": "https://grapheneos.org/",
+        "description": "Secure OS for mobile.",
+        "alternatives": [
+          { "name": "CalyxOS", "link": "https://calyxos.org/" }
+        ]
+      },
+      {
+        "name": "Chrome OS",
+        "link": "https://www.google.com/chromebook/chrome-os/",
+        "description": "Linux distro by Google.",
+        "alternatives": [
+          { "name": "FydeOS", "link": "https://fydeos.io/" }
+        ]
+      },
+      {
+        "name": "Fedora",
+        "link": "https://getfedora.org/",
+        "description": "Linux distro focusing on UI and functionality.",
+        "alternatives": [
+          { "name": "Manjaro", "link": "https://manjaro.org/" },
+          { "name": "Nobara Project", "link": "https://nobaraproject.org/" }
+        ]
+      },
+      {
+        "name": "Kali Linux",
+        "link": "https://www.kali.org/",
+        "description": "Linux distro for hacking.",
+        "alternatives": [
+          { "name": "Parrot OS", "link": "https://parrotsec.org/" },
+          { "name": "SamuraiWTF", "link": "https://samurai.technology/" },
+          { "name": "Athena OS", "link": "https://athenaos.com/" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Uncategorized",
+    "tools": [
+      {
+        "name": "Open Source servers",
+        "link": "",
+        "description": "Open Source servers.",
+        "alternatives": [
+          { "name": "Nextcloud", "link": "https://nextcloud.com/" },
+          { "name": "Eucalyptus", "link": "https://www.eucalyptus.io/" },
+          { "name": "OpenShift", "link": "https://www.openshift.com/" },
+          { "name": "OpenStack", "link": "https://www.openstack.org/" },
+          { "name": "SparkleShare", "link": "https://sparkleshare.org/" },
+          { "name": "Cozy.io", "link": "https://cozy.io/" },
+          { "name": "Seafile", "link": "https://www.seafile.com/" },
+          { "name": "OwnCloud", "link": "https://owncloud.com/" }
+        ]
+      }
+    ]
+  }
+]
