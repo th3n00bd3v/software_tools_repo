@@ -145,7 +145,12 @@
           { "name": "Thunder Client", "link": "https://www.thunderclient.com/" },
           { "name": "HTTPie", "link": "https://httpie.io/" },
           { "name": "Apiary", "link": "https://www.apiary.io/" },
-          { "name": "Advanced REST Client", "link": "https://advancedrestclient.com/" }
+          { "name": "Advanced REST Client", "link": "https://advancedrestclient.com/" },
+          { "name": "REST Assured", "link": "https://rest-assured.io/" },
+          { "name": "Karate", "link": "https://karatelabs.github.io/" },
+          { "name": "Chapar", "link": "https://chapar.dev/" },
+          { "name": "Apiary", "link": "https://www.apiary.io/" },
+          { "name": "Restlet", "link": "https://restlet.com/" }
         ]
       },
       {
@@ -155,7 +160,9 @@
         "alternatives": [
           { "name": "Playwright", "link": "https://playwright.dev/" },
           { "name": "Cypress", "link": "https://cypress.io/" },
-          { "name": "TestCafe", "link": "https://www.testcafe.io/" }
+          { "name": "TestCafe", "link": "https://www.testcafe.io/" },
+          { "name": "Puppeteer", "link": "https://pptr.dev/" },
+          { "name": "WebDriverIO", "link": "https://webdriver.io/" }
         ]
       },
       {
@@ -317,7 +324,12 @@
           { "name": "Simplenote", "link": "https://simplenote.com/" },
           { "name": "Logseq", "link": "https://logseq.com/" },
           { "name": "Weavernote", "link": "https://weavernote.com/" },
-          { "name": "Zettel Notes", "link": "https://zettelnote.app/" }
+          { "name": "Zettel Notes", "link": "https://zettelnote.app/" },
+          { "name": "Standard Notes", "link": "https://standardnotes.com/" },
+          { "name": "Joplin", "link": "https://joplinapp.org/" },
+          { "name": "Obsidian", "link": "https://obsidian.md/" },
+          { "name": "Zettel Notes", "link": "https://zettelnote.app/" },
+          { "name": "Notable", "link": "https://notable.app/" }
         ]
       },
       {
@@ -326,15 +338,18 @@
         "description": "Text Editor.",
         "alternatives": [
           { "name": "Light Table", "link": "https://lighttable.com/" },
-          { "name": "Brackets (Phoenix)", "link": "https://brackets.io/" }
-        ]
+          { "name": "Brackets (Phoenix)", "link": "https://brackets.io/" }        ]
       },
       {
         "name": "Adobe PDF Reader",
         "link": "https://get.adobe.com/reader/",
         "description": "PDF Reader and Editor.",
         "alternatives": [
-          { "name": "SumatraPDF", "link": "https://www.sumatrapdfreader.org/" }
+          { "name": "SumatraPDF", "link": "https://www.sumatrapdfreader.org/" },
+          { "name": "MuPDF", "link": "https://mupdf.com/" },
+          { "name": "Foxit PDF Reader", "link": "https://www.foxit.com/pdf-reader/" },
+          { "name": "Evince", "link": "https://wiki.gnome.org/Apps/Evince" },
+          { "name": "Okular", "link": "https://okular.kde.org/" }
         ]
       },
       {
@@ -361,7 +376,10 @@
         "alternatives": [
           { "name": "VMWare", "link": "https://www.vmware.com/" },
           { "name": "QEmu/QTemu", "link": "https://www.qemu.org/" },
-          { "name": "Multipass (for Ubuntu)", "link": "https://multipass.run/" }
+          { "name": "Multipass (for Ubuntu)", "link": "https://multipass.run/" },
+          { "name": "GNOME Boxes", "link": "https://wiki.gnome.org/Apps/Boxes" },
+          { "name": "Vectras VM", "link": "https://vectrasvm.com/" }
+
         ]
       },
       {
@@ -440,7 +458,12 @@
           { "name": "Ollama", "link": "https://ollama.com/" },
           { "name": "Hugging Face", "link": "https://www.huggingface.co/" },
           { "name": "Mistral AI", "link": "https://mistral.ai/" },
-          { "name": "Blackbox AI", "link": "https://blackbox.ai/" }
+          { "name": "Blackbox AI", "link": "https://blackbox.ai/" },
+          { "name": "Deepseek AI", "link": "https://deepseek.ai/"},
+          { "name": "Ollama", "link": "https://ollama.com/" },
+          { "name": "Agent GPT", "link": "https://agentgpt.reworkd.ai/" },
+          { "name": "Private GPT", "link": "https://privategpt.ai/" },
+          { "name": "Jan AI", "link": "https://jan.ai/" }
         ]
       },
       {
