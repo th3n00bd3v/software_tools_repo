@@ -144,7 +144,6 @@
           { "name": "Insomnia", "link": "https://insomnia.rest/" },
           { "name": "Thunder Client", "link": "https://www.thunderclient.com/" },
           { "name": "HTTPie", "link": "https://httpie.io/" },
-          { "name": "Apiary", "link": "https://www.apiary.io/" },
           { "name": "Advanced REST Client", "link": "https://advancedrestclient.com/" },
           { "name": "REST Assured", "link": "https://rest-assured.io/" },
           { "name": "Karate", "link": "https://karatelabs.github.io/" },
