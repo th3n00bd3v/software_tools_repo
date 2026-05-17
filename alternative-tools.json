@@ -258,7 +258,8 @@
           { "name": "Microsoft Edge", "link": "https://www.microsoft.com/edge" },
           { "name": "Vivaldi", "link": "https://vivaldi.com/" },
           { "name": "Bromite/Cromite (Android)", "link": "https://www.bromite.org/" },
-          { "name": "Ecosia (Android/PC)", "link": "https://ecosia.org/" }
+          { "name": "Ecosia (Android/PC)", "link": "https://ecosia.org/" },
+          {"name": "Helium Browser", "link": "https://helium.computer/"}
         ]
       },
       {
